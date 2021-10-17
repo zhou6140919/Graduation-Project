@@ -30,7 +30,7 @@ if use_gpu and config.gpu_device >= 0:
 
 # output
 timestamp = time.strftime('%Y%m%d_%H%M%S', time.localtime())
-output_dir = os.path.join(config.log_path, timestamp)
+output_dir = os.path.join(config.log_path, config.model_name + timestamp)
 if not os.path.exists(output_dir):
     os.mkdir(output_dir)
 log_file = os.path.join(output_dir, 'log.txt')

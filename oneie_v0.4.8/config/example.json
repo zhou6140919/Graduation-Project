@@ -1,6 +1,6 @@
 {
-    "bert_model_name": "bert-large-cased",
-    "bert_cache_dir": "<BERT_CACHE_DIR>",
+    "bert_model_name": "bert-large-uncased",
+    "bert_cache_dir": "bert-large-uncased",
     "multi_piece_strategy": "average",
     "bert_dropout": 0.5,
     "use_extra_bert": true,
@@ -25,11 +25,11 @@
     "relation_directional": false,
     "symmetric_relations": ["PER-SOC"],
   
-    "train_file": "<TRAIN_FILE_PATH>",
-    "dev_file": "<DEV_FILE_PATH>",
-    "test_file": "<TEST_FILE_PATH>",
-    "log_path": "<OUTPUT_DIR>",
-    "valid_pattern_path": "<VALID_PATTERN_DIR>",
+    "train_file": "oneiedataset/train.oneie.json",
+    "dev_file": "oneiedataset/dev.oneie.json",
+    "test_file": "oneiedataset/test.oneie.json",
+    "log_path": "output",
+    "valid_pattern_path": "resource/valid_patterns",
     "ignore_title": false,
     "ignore_first_header": false,
   

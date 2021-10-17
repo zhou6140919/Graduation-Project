@@ -81,7 +81,7 @@ This script only supports:
 - Set the environment variable PYTHONPATH to the current directory.
   For example, if you unpack this package to `~/oneie_v0.4.8`, run:
   `export PYTHONPATH=~/oneie_v0.4.8`
-- Run this commandline to train a model: `python train.py -c <CONFIG_FILE_PATH>`.
+- Run this commandline to train a model: `python train.py -c config/example.json`.
 - We provide an example configuration file `config/example.json`. Fill in the 
   following paths in the configuration file:
   - BERT_CACHE_DIR: Pre-trained BERT models, configs, and tokenizers will be 
